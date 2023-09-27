@@ -12,8 +12,8 @@ int[] B = { 2,7};
 //int[] D = { 1, -1 };
 string[] ZZ = { "eae", "ea", "aaf", "bda", "fcf", "dc", "ac", "ce", "cefde", "dabae" };
 string[] Z = { "hit" };
-var C = "ecbacba";
-var D = 842910;
+var C = "a2345678999999999999999";
+var D = 1;
 var z = 0;
 
 int[][] DD =
@@ -55,7 +55,7 @@ char[][] E3 = {
 //new []{ '.', '.','4', '.', '.', '.', '.', '.', '.' } };
 //Console.WriteLine(B.Sum());
 //Console.WriteLine(new GenerateRandomPointInACircle(C, D, z).RandPoint());
-Console.WriteLine(new RemoveDuplicateLetters().RemoveDuplicateLetters1(C));
+Console.WriteLine(new DecodedStringAtIndex().DecodeAtIndex(C,D));
 Console.ReadLine();
 
 
