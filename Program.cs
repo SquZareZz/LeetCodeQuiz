@@ -12,9 +12,8 @@ int[] B = { 2,7};
 //int[] D = { 1, -1 };
 string[] ZZ = { "eae", "ea", "aaf", "bda", "fcf", "dc", "ac", "ce", "cefde", "dabae" };
 string[] Z = { "hit" };
-var C = "a2345678999999999999999";
+var C = "p";
 var D = 1;
-var z = 0;
 
 int[][] DD =
     {
@@ -59,16 +58,16 @@ Console.WriteLine(new DecodedStringAtIndex().DecodeAtIndex(C,D));
 Console.ReadLine();
 
 
-//using (var libVLC = new LibVLC())
-//{
-//    using (var mediaPlayer = new MediaPlayer(libVLC))
-//    {
-//        // 指定要播放的影片文件的路徑
-//        var media = new Media(libVLC, new Uri("\\\\fsha03\\產學合作-撕膠行為偵測\\Cam_1\\2023-09-27\\2023-09-27 04-20-11.mp4"));
+using (var libVLC = new LibVLC())
+{
+    using (var mediaPlayer = new MediaPlayer(libVLC))
+    {
+        // 指定要播放的影片文件的路徑
+        var media = new Media(libVLC, new Uri("\\\\fsha03\\產學合作-撕膠行為偵測\\Cam_1\\2023-09-27\\2023-09-27 04-20-11.mp4"));
 
-//        mediaPlayer.Play(media);
+        mediaPlayer.Play(media);
 
-//        Console.WriteLine("Press any key to exit...");
-//        Console.ReadKey();
-//    }
-//}
+        Console.WriteLine("Press any key to exit...");
+        Console.ReadKey();
+    }
+}
