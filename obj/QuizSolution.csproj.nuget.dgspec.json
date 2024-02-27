@@ -52,10 +52,6 @@
               "target": "Package",
               "version": "[6.2.6, )"
             },
-            "LibVLCSharp": {
-              "target": "Package",
-              "version": "[3.8.0, )"
-            },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[5.1.1, )"
@@ -75,10 +71,6 @@
             "SqlSugarCore": {
               "target": "Package",
               "version": "[5.1.4.93, )"
-            },
-            "VideoLAN.LibVLC.Windows": {
-              "target": "Package",
-              "version": "[3.0.18, )"
             }
           },
           "imports": [

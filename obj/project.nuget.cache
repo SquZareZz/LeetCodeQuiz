@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0cRUkOCfswibne08L/c5iGsVfFdHz5TCBdEw8cN95ZKlqivB8Qy74KyK18lP5xKjrW31hfDM3u4+BowGIee5GA==",
+  "dgSpecHash": "MIoVb7PlPQfNEAD+eNHrkNXXcQ9Kv88+90bo3nXhktYeUEDzo/2pezRllgJAGf0iA1J9EatKKlxjGFoBdiNDKw==",
   "success": true,
   "projectFilePath": "C:\\Users\\jaysu\\Documents\\LeetCodeQuiz\\QuizSolution.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,6 @@
     "C:\\Users\\jaysu\\.nuget\\packages\\epplus\\6.2.6\\epplus.6.2.6.nupkg.sha512",
     "C:\\Users\\jaysu\\.nuget\\packages\\epplus.interfaces\\6.1.1\\epplus.interfaces.6.1.1.nupkg.sha512",
     "C:\\Users\\jaysu\\.nuget\\packages\\epplus.system.drawing\\6.1.1\\epplus.system.drawing.6.1.1.nupkg.sha512",
-    "C:\\Users\\jaysu\\.nuget\\packages\\libvlcsharp\\3.8.0\\libvlcsharp.3.8.0.nupkg.sha512",
     "C:\\Users\\jaysu\\.nuget\\packages\\mathnet.numerics.signed\\4.15.0\\mathnet.numerics.signed.4.15.0.nupkg.sha512",
     "C:\\Users\\jaysu\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\jaysu\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -94,8 +93,7 @@
     "C:\\Users\\jaysu\\.nuget\\packages\\system.text.regularexpressions\\4.3.0\\system.text.regularexpressions.4.3.0.nupkg.sha512",
     "C:\\Users\\jaysu\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\jaysu\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\jaysu\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
-    "C:\\Users\\jaysu\\.nuget\\packages\\videolan.libvlc.windows\\3.0.18\\videolan.libvlc.windows.3.0.18.nupkg.sha512"
+    "C:\\Users\\jaysu\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

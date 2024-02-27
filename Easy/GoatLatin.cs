@@ -13,20 +13,19 @@ namespace QuizSolution.Easy
         public string ToGoatLatin(string sentence)
         {
             string result = "";
-            var SplitSentence = sentence.Split(' ');
-            var Pattern = new char[] { 'a', 'e', 'i', 'o', 'u' };
+            var Pattern = new char[] { 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U' };
             int a = 1;
-            foreach (var split in SplitSentence)
+            foreach (var split in sentence.Split(' '))
             {
-                if (Array.IndexOf(Pattern, split[0]) > -1)
+                if (!Pattern.Contains(split[0]))
                 {
-                    result += split.Skip(1).ToString() + split[0] + "ma";
+                    result += string.Join("", split.Skip(1)) + split[0] + "ma";
                 }
                 else
                 {
-
+                    result += split + "ma";
                 }
-                result += string.Join("", Enumerable.Repeat('a', a))+" ";
+                result += string.Join("", Enumerable.Repeat('a', a)) + " ";
                 a++;
             }
             return result.Trim();

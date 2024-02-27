@@ -9,6 +9,7 @@ namespace QuizSolution.Easy
     public class ReverseVowelsOfAString
     {
         //不懂問這個芭樂意義在哪裡
+        //=> 先用 Stack 記錄所有母音位置，依照 Stack 先進後出特性，重新列出來即為答案
         public string ReverseVowelsFail(string s)
         {
             var DicS = new Dictionary<int, char>();
@@ -74,6 +75,31 @@ namespace QuizSolution.Easy
                 }
             }
             return s;
+        }
+
+        public string ReverseVowels(string s)
+        {
+            var VowelIndex = new Stack<char>();
+            var Result = new StringBuilder();
+            foreach (var c in s)
+            {
+                if ("AEIOUaeiou".Contains(c))
+                {
+                    VowelIndex.Push(c);
+                }
+            }
+            foreach (var c in s)
+            {
+                if ("AEIOUaeiou".Contains(c))
+                {
+                    Result.Append(VowelIndex.Pop());
+                }
+                else
+                {
+                    Result.Append(c);
+                }
+            }
+            return Result.ToString();
         }
     }
 }
