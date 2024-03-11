@@ -1,11 +1,10 @@
-﻿using EnumsNET;
-using QuizSolution;
+﻿using QuizSolution;
 using QuizSolution.Easy;
 using QuizSolution.Hard;
 using QuizSolution.Medium;
 using System;
 //
-int[] A = { -2, -2, 1, -2 };
+int[] A = { 3,2 };
 int[] B = { 2, 2, 5, 2, 3, 6 };
 //int[] C = { -1, 1 };
 //int[] D = { 1, -1 };
@@ -24,9 +23,9 @@ var ZZZ = "CAC";
 
 int[][] DD =
     {
-    new[] { 1, 2 },
-    //new[] { 9,9},
-    //new[] { 0,0,1 },
+    new[] { 1,2,-1 },
+    new[] { 4,-1,6},
+    //new[] { 7,8,9 },
     //new[] { 0, 1, 0, 0 }
     };
 //[1,0],[0,3],[0,2],[3,2],[2,5],[4,5],[5,6],[2,4]
@@ -62,5 +61,5 @@ char[][] E3 = {
 //new []{ '.','2', '.', '9','.', '.', '.', '.', '.' },
 //new []{ '.', '.','4', '.', '.', '.', '.', '.', '.' } };
 //Console.WriteLine(new GenerateRandomPointInACircle(C, D, z).RandPoint());
-Console.WriteLine(new DistributeCandiesAmongChildrenI().DistributeCandies(C, D));
+Console.WriteLine(new MaximumNumberOfOperationsWithTheSameScoreI().MaxOperations(A));
 Console.ReadLine();
