@@ -4,14 +4,14 @@ using QuizSolution.Hard;
 using QuizSolution.Medium;
 using System;
 //
-int[] A = { 3,2 };
-int[] B = { 2, 2, 5, 2, 3, 6 };
+int[] A = { 11,21,31 };
+int[] B = { 8, 7 };
 //int[] C = { -1, 1 };
 //int[] D = { 1, -1 };
-string[] ZZ = { "eae", "ea", "aaf", "bda", "fcf", "dc", "ac", "ce", "cefde", "dabae" };
+string[] ZZ = { "0201", "0101", "0102", "1212", "2002" };
 string[] Z = { "hit" };
-var C = 2;
-var D = 2;
+var C = "acbabccbc";
+var D = "ace";
 var ZZZ = "CAC";
 //IList<IList<int>> ZZZ = new List<IList<int>>
 //{
@@ -23,10 +23,10 @@ var ZZZ = "CAC";
 
 int[][] DD =
     {
-    new[] { 1,2,-1 },
-    new[] { 4,-1,6},
-    //new[] { 7,8,9 },
-    //new[] { 0, 1, 0, 0 }
+    new[] { 7,1,1,9 },
+    new[] { 8,5,1,5 },
+    new[] { 2,9,8,9 },
+    new[] { 5,1,3,8 },
     };
 //[1,0],[0,3],[0,2],[3,2],[2,5],[4,5],[5,6],[2,4]
 int[][] E =
@@ -61,5 +61,5 @@ char[][] E3 = {
 //new []{ '.','2', '.', '9','.', '.', '.', '.', '.' },
 //new []{ '.', '.','4', '.', '.', '.', '.', '.', '.' } };
 //Console.WriteLine(new GenerateRandomPointInACircle(C, D, z).RandPoint());
-Console.WriteLine(new MaximumNumberOfOperationsWithTheSameScoreI().MaxOperations(A));
+Console.WriteLine(new FindTheSumOfEncryptedIntegers().SumOfEncryptedInt(A));
 Console.ReadLine();

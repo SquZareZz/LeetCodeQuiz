@@ -37,5 +37,29 @@ namespace QuizSolution.Easy
                 return CandidateAnswer[n];
             }
         }
+        public int Tribonacci2(int n)
+        {
+            var DP = new int[n + 1];
+            for (int i = 0; i <= n; i++)
+            {
+                if (i == 0)
+                {
+                    DP[i] = 0;
+                }
+                else if (i == 1)
+                {
+                    DP[i] = 1;
+                }
+                else if (i == 2)
+                {
+                    DP[i] = 1;
+                }
+                else
+                {
+                    DP[i] = DP[i - 1] + DP[i - 2] + DP[i - 3];
+                }
+            }
+            return DP[n];
+        }
     }
 }
