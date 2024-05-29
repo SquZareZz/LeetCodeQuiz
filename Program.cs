@@ -4,15 +4,15 @@ using QuizSolution.Hard;
 using QuizSolution.Medium;
 using System;
 //
-int[] A = { 11,21,31 };
-int[] B = { 8, 7 };
+int[] A = { 1, 1, 1, 1, 1 };
+int[] B = { 1};
 //int[] C = { -1, 1 };
 //int[] D = { 1, -1 };
 string[] ZZ = { "0201", "0101", "0102", "1212", "2002" };
 string[] Z = { "hit" };
-var C = "acbabccbc";
-var D = "ace";
-var ZZZ = "CAC";
+var C = "1101";
+var D = "cdef";
+var ZZZ = 1;
 //IList<IList<int>> ZZZ = new List<IList<int>>
 //{
 //    new List<int> { 1 },
@@ -23,10 +23,9 @@ var ZZZ = "CAC";
 
 int[][] DD =
     {
-    new[] { 7,1,1,9 },
-    new[] { 8,5,1,5 },
-    new[] { 2,9,8,9 },
-    new[] { 5,1,3,8 },
+    new[] {1,2 ,3},
+    new[] { 4,5 ,6},
+    new[] { 7,8,9 },
     };
 //[1,0],[0,3],[0,2],[3,2],[2,5],[4,5],[5,6],[2,4]
 int[][] E =
@@ -61,5 +60,5 @@ char[][] E3 = {
 //new []{ '.','2', '.', '9','.', '.', '.', '.', '.' },
 //new []{ '.', '.','4', '.', '.', '.', '.', '.', '.' } };
 //Console.WriteLine(new GenerateRandomPointInACircle(C, D, z).RandPoint());
-Console.WriteLine(new FindTheSumOfEncryptedIntegers().SumOfEncryptedInt(A));
+Console.WriteLine(new DiagonalTraverse().FindDiagonalOrder2(DD));
 Console.ReadLine();

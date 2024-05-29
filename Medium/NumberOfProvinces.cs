@@ -10,7 +10,7 @@ namespace QuizSolution.Medium
     {
         public int FindCircleNum(int[][] isConnected)
         {
-
+            return 0;
         }
     }
 }
