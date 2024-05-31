@@ -4,11 +4,11 @@ using QuizSolution.Hard;
 using QuizSolution.Medium;
 using System;
 //
-int[] A = { 1, 1, 1, 1, 1 };
+int[] A = {  5,10 };
 int[] B = { 1};
 //int[] C = { -1, 1 };
 //int[] D = { 1, -1 };
-string[] ZZ = { "0201", "0101", "0102", "1212", "2002" };
+string[] ZZ = { "aaa", "aaa", "aa" };
 string[] Z = { "hit" };
 var C = "1101";
 var D = "cdef";
@@ -60,5 +60,5 @@ char[][] E3 = {
 //new []{ '.','2', '.', '9','.', '.', '.', '.', '.' },
 //new []{ '.', '.','4', '.', '.', '.', '.', '.', '.' } };
 //Console.WriteLine(new GenerateRandomPointInACircle(C, D, z).RandPoint());
-Console.WriteLine(new DiagonalTraverse().FindDiagonalOrder2(DD));
+Console.WriteLine(new LongestUncommonSubsequenceII().FindLUSlengthFail(ZZ));
 Console.ReadLine();
