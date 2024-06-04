@@ -4,8 +4,8 @@ using QuizSolution.Hard;
 using QuizSolution.Medium;
 using System;
 //
-int[] A = {  5,10 };
-int[] B = { 1};
+int[] A = { 5, 10 };
+int[] B = { 1 };
 //int[] C = { -1, 1 };
 //int[] D = { 1, -1 };
 string[] ZZ = { "aaa", "aaa", "aa" };
@@ -60,5 +60,5 @@ char[][] E3 = {
 //new []{ '.','2', '.', '9','.', '.', '.', '.', '.' },
 //new []{ '.', '.','4', '.', '.', '.', '.', '.', '.' } };
 //Console.WriteLine(new GenerateRandomPointInACircle(C, D, z).RandPoint());
-Console.WriteLine(new LongestUncommonSubsequenceII().FindLUSlengthFail(ZZ));
+Console.WriteLine(new ValidSquare().ValidSquare2(new int[] { 0, 0 }, new int[] { 1, 1 }, new int[] { 1, 0 }, new int[] { 0, 1 }));
 Console.ReadLine();

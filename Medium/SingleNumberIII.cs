@@ -10,8 +10,8 @@ namespace QuizSolution.Medium
     {
         public int[] SingleNumber(int[] nums)
         {
-            var DictCheck=new Dictionary<int, int>();
-            foreach(var i in nums)
+            var DictCheck = new Dictionary<int, int>();
+            foreach (var i in nums)
             {
                 if (DictCheck.ContainsKey(i))
                 {
@@ -19,10 +19,17 @@ namespace QuizSolution.Medium
                 }
                 else
                 {
-                    DictCheck.Add(i,1);
+                    DictCheck.Add(i, 1);
                 }
             }
-            return DictCheck.Where(x=>x.Value==1).Select(x=>x.Key).ToArray();
+            return DictCheck.Where(x => x.Value == 1).Select(x => x.Key).ToArray();
+        }
+        public int[] SingleNumber2(int[] nums)
+        {
+            return nums.GroupBy(x => x)
+                .Where(x=>x.Count()==1)
+                .Select(x => x.Key)
+                .ToArray();
         }
     }
 }
